@@ -1,0 +1,66 @@
+form{
+    background-color: #2b6777;
+    padding: 10px 0px;
+    margin: 10px;
+    border-radius:10px;
+  }
+    .box{
+        display: flex;
+        /* flex-wrap:wrap;
+        flex-direction:row; */
+        justify-content: space-evenly;
+    }
+    label{
+      
+      margin-left:20px;
+      font-size: 18px;
+      color: aliceblue; 
+      
+      
+     }  
+    
+    table{
+      
+      margin:auto;
+    }
+  
+    .display-box{
+      margin:10px;
+      padding:10px;
+     
+      background-color:#2b6777;
+      border-radius:10px;
+    }
+   
+   @media screen and (max-width:890px){
+   
+   
+
+    .box{
+    display:flex;
+    flex-direction:column;
+    
+  
+    }
+    form{
+    padding: 10px 25px;
+ 
+    }
+    .mainbox{
+     
+      display:flex;
+      justify-content:center;
+    }
+    label{
+    
+     margin:auto;
+     font-size: 15px;
+     color: aliceblue; 
+    }
+      
+      
+      
+     
+  
+}
+  
